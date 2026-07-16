@@ -55,5 +55,29 @@ button {
 
 .btn-discord {
     color: #fff;
-    background-color: #4B5EF4;
+    background-color: #5362F5;
+}
+
+/* card */
+.card {
+    color: #fff;
+    background-color: #5362F5;
+    width: 90%;
+    margin:75px auto;
+    padding: 70px 30px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-feature {
+    max-width: 100%;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.icon-feature {
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 50px;
 }
