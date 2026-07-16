@@ -61,7 +61,8 @@ button {
 /* card */
 .card {
     color: #fff;
-    background-color: #5362F5;
+    background-image: url('../img/background.png');
+    background-size: cover;
     width: 90%;
     margin:75px auto;
     padding: 70px 30px;
@@ -69,7 +70,7 @@ button {
     position: relative;
 }
 
-.img-feature {
+.video-feature {
     max-width: 100%;
     border-radius: 40px;
     margin-top: 20px;
@@ -78,6 +79,7 @@ button {
 .icon-feature {
     height: 100px;
     position: absolute;
-    top: -50px;
-    left: 50px;
+    top: 0;
+    left: 50%;
+    translate: -50% -50%;
 }
